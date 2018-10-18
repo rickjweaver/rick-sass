@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  font-family: Arial;
+  color: $secondary-color;
+}
+
+p, a {
+  font-size: 1.0rem;
+}
+
+img {
+  height: 350px;
+  width: 550px;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  list-style: square;
+  margin-left: 15px;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+}
